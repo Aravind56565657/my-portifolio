@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { useScrollReveal } from '../../hooks/useScrollReveal'
 import { useTheme } from '../../context/ThemeContext'
 import { navLinks } from '../../data/content'
@@ -6,16 +7,39 @@ import './Nav.css'
 export default function Nav() {
   const navRef = useScrollReveal()
   const { theme, toggleTheme } = useTheme()
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleMenu = () => setIsOpen(!isOpen)
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+  }, [isOpen])
 
   return (
-    <nav className="nav-bar" ref={navRef}>
+    <nav className={`nav-bar ${isOpen ? 'nav-open' : ''}`} ref={navRef}>
       <div className="wrap">
-        <a href="#" className="nav-logo">Aravind Kumar</a>
-        <div className="nav-right">
+        <a href="#" className="nav-logo" onClick={() => setIsOpen(false)}>Aravind Kumar</a>
+
+        <button
+          className="nav-burger"
+          onClick={toggleMenu}
+          aria-label="Toggle menu"
+          aria-expanded={isOpen}
+        >
+          <span className="burger-line"></span>
+          <span className="burger-line"></span>
+          <span className="burger-line"></span>
+        </button>
+
+        <div className={`nav-right ${isOpen ? 'active' : ''}`}>
           <ul className="nav-links">
             {navLinks.map(({ label, href }) => (
               <li key={href}>
-                <a href={href}>{label}</a>
+                <a href={href} onClick={() => setIsOpen(false)}>{label}</a>
               </li>
             ))}
           </ul>
@@ -40,6 +64,8 @@ export default function Nav() {
           </button>
         </div>
       </div>
+      <div className={`nav-overlay ${isOpen ? 'active' : ''}`} onClick={() => setIsOpen(false)}></div>
     </nav>
   )
 }
+
