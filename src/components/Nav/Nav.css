@@ -148,7 +148,8 @@
   background: transparent;
   border: none;
   cursor: pointer;
-  z-index: 200; /* Higher than nav-right and overlay */
+  z-index: 200;
+  /* Higher than nav-right and overlay */
   padding: 0;
   position: relative;
 }
@@ -226,25 +227,46 @@
     opacity: 1;
     transform: translateX(0);
   }
-  
+
   /* Stagger animations */
-  .active.nav-right .nav-links li:nth-child(1) { transition-delay: 0.1s; }
-  .active.nav-right .nav-links li:nth-child(2) { transition-delay: 0.15s; }
-  .active.nav-right .nav-links li:nth-child(3) { transition-delay: 0.2s; }
-  .active.nav-right .nav-links li:nth-child(4) { transition-delay: 0.25s; }
-  .active.nav-right .nav-links li:nth-child(5) { transition-delay: 0.3s; }
-  .active.nav-right .nav-links li:nth-child(6) { transition-delay: 0.35s; }
-  .active.nav-right .nav-links li:nth-child(7) { transition-delay: 0.4s; }
+  .active.nav-right .nav-links li:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+
+  .active.nav-right .nav-links li:nth-child(2) {
+    transition-delay: 0.15s;
+  }
+
+  .active.nav-right .nav-links li:nth-child(3) {
+    transition-delay: 0.2s;
+  }
+
+  .active.nav-right .nav-links li:nth-child(4) {
+    transition-delay: 0.25s;
+  }
+
+  .active.nav-right .nav-links li:nth-child(5) {
+    transition-delay: 0.3s;
+  }
+
+  .active.nav-right .nav-links li:nth-child(6) {
+    transition-delay: 0.35s;
+  }
+
+  .active.nav-right .nav-links li:nth-child(7) {
+    transition-delay: 0.4s;
+  }
 
   .nav-bar a {
     font-size: 1.1rem;
   }
-  
+
   .theme-toggle {
-    margin-top: auto; 
+    margin-top: auto;
     width: 100%;
   }
 }
+
 
 /* Hamburger Animation - when menu is open */
 .nav-open .burger-line:nth-child(1) {
@@ -259,3 +281,9 @@
   transform: translateY(-8px) rotate(-45deg);
 }
 
+/* Ensure nav-bar doesn't clip fixed children when open */
+.nav-bar.nav-open {
+  transform: none !important;
+  transition: background-color 0.3s ease;
+  /* Remove transform transition to avoid jump */
+}
