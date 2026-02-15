@@ -1,0 +1,12 @@
+.skills-grid { gap: 2rem; }
+
+.skill-category-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--accent-border);
+}
+
+.skill-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }

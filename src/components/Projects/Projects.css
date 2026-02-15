@@ -1,0 +1,7 @@
+.project-card h3 { font-size: 1.1rem; color: var(--text); margin-bottom: 0.5rem; }
+.project-card p { font-size: 0.9rem; color: var(--muted); font-weight: 300; margin-bottom: 1rem; }
+.project-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.project-links { display: flex; gap: 1rem; }
+.project-links a { font-size: 0.85rem; color: var(--accent); text-decoration: none; }
+.project-links a:hover { text-decoration: underline; }
+.project-links a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

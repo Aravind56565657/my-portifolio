@@ -1,0 +1,241 @@
+/* Beyond the Code – premium about section */
+
+.about-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 780px;
+}
+
+@media (min-width: 640px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 2.5rem;
+  }
+
+  .about-mission { grid-column: 1 / -1; }
+  .about-edu-card { grid-column: 1; }
+  .about-focus-wrap { grid-column: 2; align-self: start; }
+  .about-drive { grid-column: 1 / -1; }
+  .about-beyond { grid-column: 1 / -1; }
+}
+
+/* Mission quote – standout opener */
+.about-mission {
+  grid-column: 1 / -1;
+}
+
+.about-quote {
+  margin: 0;
+  padding: 2rem 2rem 2rem 2.25rem;
+  background: linear-gradient(135deg, var(--block-bg) 0%, var(--surface) 100%);
+  border: 1px solid var(--accent-border);
+  border-left: 4px solid var(--accent);
+  border-radius: 16px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.75;
+  color: var(--text);
+  font-style: italic;
+  position: relative;
+  transition: all 0.4s var(--ease-out-expo);
+  box-shadow: var(--shadow-card-accent);
+}
+
+.about-quote::before {
+  content: '"';
+  position: absolute;
+  top: 1rem;
+  left: 1.25rem;
+  font-size: 3rem;
+  font-family: Georgia, serif;
+  color: var(--accent);
+  opacity: 0.4;
+  line-height: 1;
+}
+
+.about-quote:hover {
+  border-color: var(--accent-border-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft), 0 0 0 1px var(--accent-border);
+}
+
+/* Education card */
+.about-edu-card {
+  max-width: 320px;
+}
+
+.about-edu {
+  padding: 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--accent-border);
+  border-radius: 16px;
+  transition: all 0.35s var(--ease-out-expo);
+}
+
+.about-edu:hover {
+  background: var(--surface-hover);
+  border-color: var(--accent-border-hover);
+  box-shadow: var(--shadow-card), var(--shadow-card-accent);
+}
+
+.about-edu-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.about-edu-degree {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.about-edu-college {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.about-edu-cgpa {
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
+.about-edu-cgpa strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Focus areas */
+.about-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.about-focus-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.about-focus-list li {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1rem;
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+.about-focus-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+/* Drive cards – 3-column grid on desktop */
+.about-drive {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .about-drive {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.about-drive-card {
+  padding: 1.5rem;
+  background: var(--block-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 14px;
+  transition: all 0.35s var(--ease-out-expo);
+}
+
+.about-drive-card:hover {
+  background: var(--block-bg-hover);
+  border-color: var(--accent-border-hover);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.about-drive-icon {
+  display: block;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-drive-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.about-drive-text {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* Beyond the keyboard */
+.about-beyond {
+  padding: 1.75rem;
+  background: linear-gradient(180deg, var(--section-alt) 0%, transparent 100%);
+  border: 1px dashed var(--accent-border);
+  border-radius: 14px;
+}
+
+.about-beyond-headline {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.about-beyond-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.about-beyond-list li {
+  position: relative;
+  padding-left: 1.25rem;
+  font-size: 0.95rem;
+  color: var(--text-soft);
+  line-height: 1.5;
+}
+
+.about-beyond-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 600;
+  opacity: 0.9;
+}
