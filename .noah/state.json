@@ -2,18 +2,18 @@
   "generatedBy": "Noah-AI",
   "schema": 1,
   "lastDeployment": {
-    "deploymentId": "dpl_AHRUnqHuuGW3HjTpqKcgNuZhN7G2",
+    "deploymentId": "dpl_4Fb64CA7vLB5FbYCvBzienpsCK7k",
     "platform": "vercel",
-    "commit": "499eea5d781cf83fa1f6344e1f8f7d54c65feea8",
-    "url": "https://my-portifolio-aravindkumar23567-8684s-projects.vercel.app",
+    "commit": "2f3d118835f5e1f52a7dcd47d7ec840b8533458e",
+    "url": "https://my-portifolio-rouge-three.vercel.app",
     "status": "success",
-    "deployedAt": "2026-06-10T06:24:16.692Z"
+    "deployedAt": "2026-06-10T06:36:33.072Z"
   },
   "lastSuccessfulDeployment": {
-    "deploymentId": "dpl_AHRUnqHuuGW3HjTpqKcgNuZhN7G2",
+    "deploymentId": "dpl_4Fb64CA7vLB5FbYCvBzienpsCK7k",
     "platform": "vercel",
-    "commit": "499eea5d781cf83fa1f6344e1f8f7d54c65feea8",
-    "url": "https://my-portifolio-aravindkumar23567-8684s-projects.vercel.app",
-    "deployedAt": "2026-06-10T06:24:16.692Z"
+    "commit": "2f3d118835f5e1f52a7dcd47d7ec840b8533458e",
+    "url": "https://my-portifolio-rouge-three.vercel.app",
+    "deployedAt": "2026-06-10T06:36:33.072Z"
   }
 }
