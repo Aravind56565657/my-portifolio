@@ -1,0 +1,19 @@
+{
+  "generatedBy": "Noah-AI",
+  "schema": 1,
+  "lastDeployment": {
+    "deploymentId": "dpl_GvLySmTUskP7k3FD97wTwnAHZHFc",
+    "platform": "vercel",
+    "commit": "26c2d8e1eafb1d02cd252681cb6edf01cf1de13c",
+    "url": "https://my-portifolio.vercel.app",
+    "status": "success",
+    "deployedAt": "2026-06-10T04:34:56.521Z"
+  },
+  "lastSuccessfulDeployment": {
+    "deploymentId": "dpl_GvLySmTUskP7k3FD97wTwnAHZHFc",
+    "platform": "vercel",
+    "commit": "26c2d8e1eafb1d02cd252681cb6edf01cf1de13c",
+    "url": "https://my-portifolio.vercel.app",
+    "deployedAt": "2026-06-10T04:34:56.521Z"
+  }
+}
