@@ -1,0 +1,13 @@
+{
+  "deploymentId": "dpl_AHRUnqHuuGW3HjTpqKcgNuZhN7G2",
+  "sequence": 2,
+  "platform": "vercel",
+  "strategy": "A",
+  "database": null,
+  "status": "success",
+  "commit": "499eea5d781cf83fa1f6344e1f8f7d54c65feea8",
+  "deploymentUrl": "https://my-portifolio-aravindkumar23567-8684s-projects.vercel.app",
+  "durationMs": 21163,
+  "generatedFiles": [],
+  "createdAt": "2026-06-10T06:24:16.692Z"
+}
