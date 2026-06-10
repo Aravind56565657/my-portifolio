@@ -18,7 +18,7 @@
     "provider": null
   },
   "buildCommand": "npm run build",
-  "startCommand": "npm run dev",
+  "startCommand": "npm run preview -- --host 0.0.0.0 --port $PORT",
   "envRequired": [],
   "generatedFiles": []
 }
