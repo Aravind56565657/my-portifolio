@@ -1,0 +1,13 @@
+{
+  "deploymentId": "dpl_4Fb64CA7vLB5FbYCvBzienpsCK7k",
+  "sequence": 3,
+  "platform": "vercel",
+  "strategy": "A",
+  "database": null,
+  "status": "success",
+  "commit": "2f3d118835f5e1f52a7dcd47d7ec840b8533458e",
+  "deploymentUrl": "https://my-portifolio-rouge-three.vercel.app",
+  "durationMs": 21323,
+  "generatedFiles": [],
+  "createdAt": "2026-06-10T06:36:33.072Z"
+}
