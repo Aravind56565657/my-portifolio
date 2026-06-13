@@ -2,18 +2,18 @@
   "generatedBy": "Noah-AI",
   "schema": 1,
   "lastDeployment": {
-    "deploymentId": "dpl_FNLtdajCYTf6N4dpt9xd4NBr4ewi",
+    "deploymentId": "dpl_96ggoAYiKTKHoFSydE56YbW9TtcZ",
     "platform": "vercel",
-    "commit": "9d445de0c2ec5f45ee852165331ec789776fd0f1",
+    "commit": "9a86fae5084a6bea2ffa610840fe708981beb9e9",
     "url": "https://my-portifolio-rouge-three.vercel.app",
     "status": "success",
-    "deployedAt": "2026-06-11T18:25:36.049Z"
+    "deployedAt": "2026-06-13T09:39:44.661Z"
   },
   "lastSuccessfulDeployment": {
-    "deploymentId": "dpl_FNLtdajCYTf6N4dpt9xd4NBr4ewi",
+    "deploymentId": "dpl_96ggoAYiKTKHoFSydE56YbW9TtcZ",
     "platform": "vercel",
-    "commit": "9d445de0c2ec5f45ee852165331ec789776fd0f1",
+    "commit": "9a86fae5084a6bea2ffa610840fe708981beb9e9",
     "url": "https://my-portifolio-rouge-three.vercel.app",
-    "deployedAt": "2026-06-11T18:25:36.049Z"
+    "deployedAt": "2026-06-13T09:39:44.661Z"
   }
 }
