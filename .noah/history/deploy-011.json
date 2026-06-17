@@ -1,0 +1,13 @@
+{
+  "deploymentId": "dpl_7dxiE7a1uTkSvt2wMPr52oHihjfW",
+  "sequence": 11,
+  "platform": "vercel",
+  "strategy": "A",
+  "database": null,
+  "status": "success",
+  "commit": "f97edc1a7ef0603642ef6bfebf1d30b0b5b361f7",
+  "deploymentUrl": "https://unnamed-project-tau.vercel.app",
+  "durationMs": 23815,
+  "generatedFiles": [],
+  "createdAt": "2026-06-17T17:58:48.912Z"
+}
