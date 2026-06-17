@@ -2,18 +2,18 @@
   "generatedBy": "Noah-AI",
   "schema": 1,
   "lastDeployment": {
-    "deploymentId": "dpl_4XdH6Q2JFbS8XyQFNXHfYm4epVpZ",
+    "deploymentId": "dpl_7dxiE7a1uTkSvt2wMPr52oHihjfW",
     "platform": "vercel",
-    "commit": "14e9e3dcc6639879148ebfefd082f1be0823364f",
-    "url": "https://my-portifolio-rouge-three.vercel.app",
+    "commit": "f97edc1a7ef0603642ef6bfebf1d30b0b5b361f7",
+    "url": "https://unnamed-project-tau.vercel.app",
     "status": "success",
-    "deployedAt": "2026-06-17T17:11:26.399Z"
+    "deployedAt": "2026-06-17T17:58:48.912Z"
   },
   "lastSuccessfulDeployment": {
-    "deploymentId": "dpl_4XdH6Q2JFbS8XyQFNXHfYm4epVpZ",
+    "deploymentId": "dpl_7dxiE7a1uTkSvt2wMPr52oHihjfW",
     "platform": "vercel",
-    "commit": "14e9e3dcc6639879148ebfefd082f1be0823364f",
-    "url": "https://my-portifolio-rouge-three.vercel.app",
-    "deployedAt": "2026-06-17T17:11:26.399Z"
+    "commit": "f97edc1a7ef0603642ef6bfebf1d30b0b5b361f7",
+    "url": "https://unnamed-project-tau.vercel.app",
+    "deployedAt": "2026-06-17T17:58:48.912Z"
   }
 }
