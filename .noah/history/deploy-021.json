@@ -1,0 +1,13 @@
+{
+  "deploymentId": "dpl_7UR664cpjYUi8d1HKmL2T14SLmkj",
+  "sequence": 21,
+  "platform": "vercel",
+  "strategy": "A",
+  "database": null,
+  "status": "success",
+  "commit": "b344ce1d2f54c31db8f25ca538c5791e6a9dba98",
+  "deploymentUrl": "https://my-portifolio-sage-ten.vercel.app",
+  "durationMs": 18042,
+  "generatedFiles": [],
+  "createdAt": "2026-06-25T06:49:10.064Z"
+}
