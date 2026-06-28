@@ -2,18 +2,18 @@
   "generatedBy": "Noah-AI",
   "schema": 1,
   "lastDeployment": {
-    "deploymentId": "6a40e67226b7f3724c4e68cf",
+    "deploymentId": "6a40e8b0619022849074d0cb",
     "platform": "netlify",
-    "commit": "7670b629c5373d0e6c29a5cc2ce7993b67133fc8",
+    "commit": "ad0d0aa3ffc9cf8ea14b6d93ae81379141d045d8",
     "url": "https://my-portifolio-d9cecc.netlify.app",
     "status": "success",
-    "deployedAt": "2026-06-28T09:16:41.163Z"
+    "deployedAt": "2026-06-28T09:26:14.490Z"
   },
   "lastSuccessfulDeployment": {
-    "deploymentId": "6a40e67226b7f3724c4e68cf",
+    "deploymentId": "6a40e8b0619022849074d0cb",
     "platform": "netlify",
-    "commit": "7670b629c5373d0e6c29a5cc2ce7993b67133fc8",
+    "commit": "ad0d0aa3ffc9cf8ea14b6d93ae81379141d045d8",
     "url": "https://my-portifolio-d9cecc.netlify.app",
-    "deployedAt": "2026-06-28T09:16:41.163Z"
+    "deployedAt": "2026-06-28T09:26:14.490Z"
   }
 }
