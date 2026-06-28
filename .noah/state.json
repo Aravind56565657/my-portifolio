@@ -2,18 +2,18 @@
   "generatedBy": "Noah-AI",
   "schema": 1,
   "lastDeployment": {
-    "deploymentId": "dpl_FFcnSnFrq6D2GiVyxitLUc1Wvdow",
-    "platform": "vercel",
-    "commit": "60cd9441c70661b7b700d8d185d35cd186b66b0f",
-    "url": "https://my-portifolio-sage-ten.vercel.app",
+    "deploymentId": "6a40c3b4af6b112933710d1e",
+    "platform": "netlify",
+    "commit": "0319f5438c2602a5227922859324464b14fb4842",
+    "url": "https://my-portifolio-09300f.netlify.app",
     "status": "success",
-    "deployedAt": "2026-06-28T06:28:38.733Z"
+    "deployedAt": "2026-06-28T06:48:31.005Z"
   },
   "lastSuccessfulDeployment": {
-    "deploymentId": "dpl_FFcnSnFrq6D2GiVyxitLUc1Wvdow",
-    "platform": "vercel",
-    "commit": "60cd9441c70661b7b700d8d185d35cd186b66b0f",
-    "url": "https://my-portifolio-sage-ten.vercel.app",
-    "deployedAt": "2026-06-28T06:28:38.733Z"
+    "deploymentId": "6a40c3b4af6b112933710d1e",
+    "platform": "netlify",
+    "commit": "0319f5438c2602a5227922859324464b14fb4842",
+    "url": "https://my-portifolio-09300f.netlify.app",
+    "deployedAt": "2026-06-28T06:48:31.005Z"
   }
 }
