@@ -1,0 +1,13 @@
+{
+  "deploymentId": "6a40e67226b7f3724c4e68cf",
+  "sequence": 25,
+  "platform": "netlify",
+  "strategy": "A",
+  "database": null,
+  "status": "success",
+  "commit": "7670b629c5373d0e6c29a5cc2ce7993b67133fc8",
+  "deploymentUrl": "https://my-portifolio-d9cecc.netlify.app",
+  "durationMs": 55607,
+  "generatedFiles": [],
+  "createdAt": "2026-06-28T09:16:41.163Z"
+}
