@@ -2,18 +2,18 @@
   "generatedBy": "Noah-AI",
   "schema": 1,
   "lastDeployment": {
-    "deploymentId": "dpl_7UR664cpjYUi8d1HKmL2T14SLmkj",
+    "deploymentId": "dpl_FFcnSnFrq6D2GiVyxitLUc1Wvdow",
     "platform": "vercel",
-    "commit": "b344ce1d2f54c31db8f25ca538c5791e6a9dba98",
+    "commit": "60cd9441c70661b7b700d8d185d35cd186b66b0f",
     "url": "https://my-portifolio-sage-ten.vercel.app",
     "status": "success",
-    "deployedAt": "2026-06-25T06:49:10.064Z"
+    "deployedAt": "2026-06-28T06:28:38.733Z"
   },
   "lastSuccessfulDeployment": {
-    "deploymentId": "dpl_7UR664cpjYUi8d1HKmL2T14SLmkj",
+    "deploymentId": "dpl_FFcnSnFrq6D2GiVyxitLUc1Wvdow",
     "platform": "vercel",
-    "commit": "b344ce1d2f54c31db8f25ca538c5791e6a9dba98",
+    "commit": "60cd9441c70661b7b700d8d185d35cd186b66b0f",
     "url": "https://my-portifolio-sage-ten.vercel.app",
-    "deployedAt": "2026-06-25T06:49:10.064Z"
+    "deployedAt": "2026-06-28T06:28:38.733Z"
   }
 }
