@@ -2,11 +2,11 @@
   "generatedBy": "Noah-AI",
   "schema": 2,
   "project": {
-    "name": "my-portifolio",
+    "name": null,
     "language": "JavaScript",
     "appType": "static"
   },
-  "platform": "vercel",
+  "platform": "netlify",
   "strategy": "A",
   "tier": "free",
   "frontend": {
