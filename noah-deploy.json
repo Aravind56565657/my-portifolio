@@ -6,7 +6,7 @@
     "language": "JavaScript",
     "appType": "static"
   },
-  "platform": "netlify",
+  "platform": "vercel",
   "strategy": "A",
   "tier": "free",
   "frontend": {
