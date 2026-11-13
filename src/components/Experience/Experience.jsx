@@ -12,7 +12,7 @@ export default function Experience() {
           as="article"
           className="experience-item card animate-item"
         >
-          <h3>AI Engineer Intern</h3>
+          <h3>AI Engineer</h3>
 
           <p className="exp-meta">
             NimbleBiz AI <span>/ March – August 2026</span>
