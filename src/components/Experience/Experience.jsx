@@ -7,6 +7,41 @@ export default function Experience() {
     <Section id="experience" title="Experience">
       <div className="timeline-list">
 
+        {/* VISTEX */}
+        <AnimateReveal
+          as="article"
+          className="experience-item card animate-item"
+        >
+          <h3>vistex SAP->ABAP</h3>
+
+          <p className="exp-meta">
+            Vistex <span>/ October 2026 - Present</span>
+          </p>
+
+          <ul>
+            <li>
+              Working on SAP ABAP development, building custom reports,
+              programs, and enterprise business solutions.
+            </li>
+            <li>
+              Developing and managing SAP Dictionary objects, including
+              database tables, structures, views, and data elements.
+            </li>
+            <li>
+              Implementing ABAP Open SQL queries, internal tables, and
+              data retrieval logic to support enterprise applications.
+            </li>
+          </ul>
+
+          <div className="exp-tags">
+            {['ABAP', 'Vistex', 'SAP'].map((tag) => (
+              <span key={tag} className="tag exp-tag">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </AnimateReveal>
+
         {/* NimbleBiz AI */}
         <AnimateReveal
           as="article"
